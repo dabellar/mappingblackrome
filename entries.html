@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<!--
+  Author: Bea Avila-Rimer
+  HTML for the mapping black rome project
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mapping Black Rome</title>
+    <link rel="icon" href="imgs/bee.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map</title>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Include Leaflet JavaScript -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css">
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="trips.html">Relevant Work</a></li>
+          <li><a href="bibliography.html">Bibliography</a></li>
+          <li><a href="#">Entries</a></li>
+          <li><a href="index.html">About</a></li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <h1>Mapping Black Rome</h1>
+      </div>
+    </header>
+
+    <main id="fullpage">
+      <div class="section">
+        <section class="map-container">
+          <div id="map1" class="map"></div>
+        </section>
+        
+
+        <section class="featured">
+        <article>
+          <h2>Piazza Del Popolo</h2> 
+          <figure>
+            <img id="location-image" src="imgs/piazza_del_popolo.jpg" alt="Piazza del Popolo">
+            <figcaption>Piazza del Popolo. <a href="https://ansharimages.com/photo/piazza-del-popolo-and-flaminio-obelisk-rome-italy"
+             target="_blank">Anshar Images</a></figcaption>
+          </figure>
+          <h3>William Demby</h3>
+          <p class="quote">Today is yesterday and T., Alice and I are seated at Rosati’s café in Piazza
+          del Popolo waiting for P.
+          <!-- If time come back and unitalize -->
+          <a href="https://www.imdb.com/name/nm0001596/?ref_=fn_al_nm_1">[Pier Paolo Pasonlini]</a>, 
+          the movie director. Alice hopes to get a smallC
+          part in P.’s new film,
+          <a href="https://www.imdb.com/title/tt0056215/?ref_=nm_flmg_t_44_wr]">La Mamma.</a>
+          While we are waiting for P. to come I let Alice read the first chapter of this novel.</p>  (Demby, <i>The Catacombs</i> 30).
+          <figure>
+            <img id="location-image" src="imgs/william_demby.jpg" alt="William Demby">
+            <figcaption>William Demby. <a href="https://ansharimages.com/photo/piazza-del-popolo-and-flaminio-obelisk-rome-italy"
+             target="_blank">Anshar Images</a></figcaption>
+          </figure>
+          <p class="context">Writer <b>William Demby</b> forged a multifaceted career working in postwar Rome as a novelist,
+            screenwriter, script translator, actor, and journalist [1]. He alludes to his experiences in his 
+            semi-autobiographical novel <i>The Catacombs</i> (1965), whose protagonist, Bill Demby, is a Black author 
+            living in Rome in the early 1960s with his Italian wife and son and writing a novel within the novel about
+            a Black actress, Doris. In the postwar period, the Piazza del Popolo and surrounding streets stretching to the
+            Spanish Steps, were filmmaker haunts, including cafes like <b><u>Rosati</u></b> and <b><u>Canova</u></b>.
+            Nearby, the <b><u>Via Margutta</u></b> was lined with artist studios. 
+          </p>
+        </article>
+        </section>
+      </div>
+
+      <div class="section">
+        <section class="map-container">
+          <div id="map2" class="map"></div>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>Villa Borghese</h2> 
+          <figure>
+            <img id="location-image" src="imgs/villa_borghese.jpg" alt="Villa Borghese">
+            <figcaption>Villa Borghese. <a href="https://www.rome.net/villa-borghese" target="_blank">Rome.net</a></figcaption>
+          </figure>
+          <h3>Ben Johnson</h3>  
+          <p class="context">
+          <b>Ben Johnson</b> was a prolific African American translator of Italian modern literature into English, actor, editor, and writer 
+          who lived in postwar Rome [1]. Before settling in Rome, he served in Italy during WWII, and then returned to the United States to 
+          earn his degree at Fisk University in Nashville, Tennessee. There, he met writer <a href="#map1">William Demby</a> and stayed in close
+          contact with him when he moved to Rome in the late 1940s. Johnson translated into English many groundbreaking modern and contemporary
+          Italian literary texts, including works by Italo Svevo; Johnson was Italo Calvino’s first translator into English. Johnson worked as an
+          editor on the cutting-edge, Rome-based journal <a href="#map1">Botteghe Oscure</a>.</p> 
+
+          <p class="context">Johnson starred in a 1952 retelling of Othello set in Rome, <a href="#map1">Anna's Sin (Il peccato di Anna)</a> [2], in which his 
+            friend writer <b>William Demby</b> also played a substantive role. The film features the Villa Borghese gallery in one of its key scenes
+            [Figure 1]. The Villa Borghese gallery is one of the most famous art galleries in the world, containing paintings, sculptures and antiquities. 
+          </p>
+
+          <h4>References</h4>
+          <p class="reference">
+            [1] Masterton Sherazi, Melanie. “Italo Calvino’s Earliest Translations into English by Rome-Based African American Translator and Editor Ben Johnson.”
+            in Calvino’s Memos: Between the Old and the New Millennium, special issue of California Italian Studies, vol. 12, no. 1, 2023. 
+            <a href="https://doi.org/10.5070/C312159672">https://doi.org/10.5070/C312159672</a></p>
+
+          <p class="reference">
+            [2] See Shelleen Greene, “Noir Expatriatism: Black Subjectivities in Anna’s Sin,” African American  Review, vol. 55, nos. 2–3, 2022, pp. 137–50; and
+            Melanie Masterton Sherazi,“Projecting Liberation in
+            Postwar Italian Cinema: Scenes of Desegregation in 1950s Rome in Anna’s Sin (1952), a Retelling of
+            Othello,” Pacific Coast Philology, vol. 56, no. 1, 2021, pp. 78–98.
+          </p>
+        </article>
+        </section>
+      </div>
+
+      <div class="section">
+        <section class="map-container">
+          <div id="map3" class="map"></div>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>Botteghe Oscure</h2> 
+          <figure>
+            <img id="location-image" src="imgs/palazzo_caetani.jpg" alt="Palazzo Caetani">
+            <figcaption>Palazzo Caetani.<a href="https://www.fondazionecamillocaetani.it/il-palazzo/" target="_blank">Fondazione Caetani</a></figcaption>
+          </figure>
+          <h3>Ben Johnson</h3>
+          <p class="context">
+          <b>Ben Johnson</b> worked on the cutting-edge journal <b><i>Botteghe Oscure</i></b> as an editor, translator, and 
+          proofreader, along with editor Giorgio Bassani and Anglo-American expatriate writer Eugene Walter. American 
+          expatriate Marguerite Caetani backed the journal and housed its production in her residence the Palazzo Caetani 
+          in the center of Rome and at her estate at Ninfa [1]. 
+
+          <p class="context">
+            Johnson was the chief editor (redattore) for volume fourteen of the journal (1954), which includes a short story by
+            <b>William Demby</b>, who published his work in multiple issues of the journal. Between 1948–1960, <b><i>Botteghe Oscure</i></b>
+            published cutting-edge writing twice a year from Rome and was remarkable for its global distribution and for publishing authors 
+            in their original languages. </p>
+
+          <h4>References</h4>
+          <p class="reference">
+            [1] Masterton Sherazi, Melanie. “Italo Calvino’s Earliest Translations into English by Rome-Based African American Translator and Editor Ben Johnson.”
+            in Calvino’s Memos: Between the Old and the New Millennium, special issue of California Italian Studies, vol. 12, no. 1, 2023. 
+            <a href="https://doi.org/10.5070/C312159672">https://doi.org/10.5070/C312159672</a></p>          
+        </article>
+        </section>
+      </div>
+
+      <div class="section">
+        <section class="map-container">
+          <div id="map4" class="map"></div>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>Folkstudio</h2> 
+          <img id="location-image" src="imgs/folkstudio.JPG" alt="Folkstudio">
+          <h3>Harold Bradley</h3>
+          <p class="context">
+           Originally from Chicago, Harold Bradley moved to Italy in 1959 to study at the University for Foreigners in Perugia, Italy.
+           While in Italy, he founded the cultural hub Folkstudio in 1961 in Rome’s Trastevere neighborhood, with art exhibitions in
+           the day that morphed into a jazz club by night, frequented by artists and musicians including Bob Dylan, Pete Seeger, 
+           and Ravi Shankar. Bradley was accomplished in a multitude of different fields. He starred in over a dozen Italian films,
+           even making appearances as an extra in the film Cleopatra with Elizabeth Taylor. He was a painter, musician, educator,
+           art historian, film, theater actor, football player as well as a constant patron for African American influence in the arts. 
+           After moving back to the United States in 1968, he taught at the University of Illinois at Urbana-Champaign and produced and 
+           hosted three prime-time public affairs shows where he focused on race and intercultural issues [1]. 
+          </p>
+          <h4>References</h4>
+          <p class="reference">
+            [1] Brown, Blaine. “Remembering Harold Bradley Jr..” AICR, AICR, 13 July 2023,  
+            <a href="www.americanclubrome.org/post/remembering-harold-bradley-jr">www.americanclubrome.org/post/remembering-harold-bradley-jr.
+            </a></p>
+        </article>
+        </section>
+      </div>
+
+      <div class="section">
+        <section class="map-container">
+          <div id="map5" class="map"></div>
+          <script src="overlay_map.js"></script>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>American Academy in Rome</h2> 
+          <img id="location-image" src="imgs/american_academy.jpg" alt="American Academy in Rome">
+          <h3>John Rhoden</h3>
+          <p class="context">
+           John Rhoden was born March 13, 1916, and showed artistic promise from a young age. He went on to join the 
+           military and during his time serving he completed the busts of several high-ranking officers. After the 
+           military, he attended the New School for Social Research and then Columbia University which eventually led
+            him to his time at the American Academy in Rome in 1951 to 1954. While in Rome, Rhoden, the first Black 
+            visual artist to be in residence at the Academy, created a towering bronze sculpture whose “lithe organicism
+            and integration of figuration and abstraction presaged the style that would characterize his art for years 
+            to come” [1]. </p>
+
+          <p class="context">
+            Rhoden’s time in Rome uniquely shaped his artistic style and caught the attention of the United States 
+            Department of State who recruited him to serve as an art specialist from 1955 through 1959. His time abroad, and
+           especially in Rome, established Rhoden as a prominent sculptor of the time and allowed for exploration of a multitude
+            of cultures and artistic representations. 
+          </p>
+          
+          <h4>References</h4>
+          <p class="reference">
+            [1] “First Career Retrospective of John Rhoden Opens at Pafa.” American Academy in Rome, American Academy in Rome,
+            9 Oct. 2023, 
+            <a href="www.aarome.org/news/features/john-rhoden-exhibition-pafa">www.aarome.org/news/features/john-rhoden-exhibition-pafa</a></p>
+
+            <h3>Ralph Ellison</h3>
+            <p class="quote">
+              My wife and I were living the dormitory life of the American Academy in Rome and I was much preoccupied: 
+              with writing a novel, with literary concepts, with reviewing my own life’s resources for literary creation;
+               with the experience of discovering a foreign culture in which the old structures and guides that sustained 
+               my thoughts, emotions and conduct at home were so relaxed, whether awake or sleeping, that it was as though
+               I was living in a barely controlled chaos. (Ellison, “Tell It Like It Is, Baby”) </p>
+  
+            <p class="context">
+              Writer Ralph Ellison spent two years as a Rome Prize Fellow in Literature at the American Academy in Rome from
+               1955-1957, following the publication of his first, critically acclaimed novel Invisible Man. There, he would 
+               begin drafting his second novel, which was to remain forever in progress, but was published posthumously in two
+                edited variants, Juneteenth and Three Days Before the Shooting [1]. </p>
+            <p class="context">
+              Seemingly disillusioned with the Eternal City, Ellison observed in a letter sent from Rome to his best friend Albert
+               Murray that “the best of Rome remains its past” [2]. 
+            </p>
+            
+            <h4>References</h4>
+            <p class="reference">
+              [1] Masterton Sherazi, Melanie. “Plotting in Rome: Ralph Ellison and Cold War African American Modernism.” Projecting 
+              Americanism Abroad: Italy in the Cold War, special issue of Italian Quarterly, vol. 54, nos. 211-214, 2017, pp. 71-88.
+  
+              [2] qtd. in Sara Marzioli. “Snapshots of the Eternal City: Ralph Ellison in Rome.” Modernism/Modernity, vol. 24, no. 4,
+             2017, pp. 819-839. 
+             <a href="muse.jhu.edu/article/677105">muse.jhu.edu/article/677105 </a>
+        </article>
+        </section>
+      </div>
+
+      <div class="section">
+        <section class="map-container">
+          <div id="map6" class="map"></div>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>RAI Studios: episode of Il signore delle 21: “Harlem”</h2> 
+          <img id="location-image" src="imgs/RAI_studios.png" alt="RAI Studios">
+          <h3>William Demby</h3>
+          <p class="quote">
+            Today is May 12, [1962], Doris and the Count are here to watch the TV program Il Signore delle 21: Harlem, in 
+            which I appear as a kind of assistant master of ceremonies, together with Louis Armstrong, Sammy Davis, Hazel Scott,
+            the Peters Sisters and many other stars of the Negro entertainment world. I know that this is the first time that so
+             many Negro entertainers have appeared at one time on a European television program and I am frankly apprehensive.
+             Strange things happened during the Ampex recording of the program. For years I had lived under the illusion that 
+             racial prejudice does not exist in Italy, which has now become my second patria—And yet—had I been imagining things?
+             (Demby, The Catacombs 49-50)</p>
+
+          <p class="context">
+            Writer William Demby was asked to MC an episode of the Italian variety show Il signore delle 21, an experience he would 
+            fold into his semi-autobiographical novel The Catacombs. Demby’s idea for the episode was “to say, ‘Hey Louis, what’s 
+            Harlem?’ And I told him that, when I asked that, he should say, ‘Harlem is…,’ and then start playing” (qtd. in Micconi 134–35)
+           [1]. Demby affirmed, “Louis Armstrong and Ella Fitzgerald were happy to see a Black guy on European television… To them 
+           I was an early example of the Civil Rights revolution having transformed the racial situation in Italy” (qtd. Micconi 135).</p>
+          <p class="context">
+            The Italian variety show Il Signore delle 21 filmed at RAI Studios, the public Italian broadcasting company (radio and television). 
+            The company started with radio broadcasting in 1924 and added television programs in 1954 [2]. Il Signore delle 21 aired in the 
+            early 1960s and filmed at the Teatro delle Vittorie, an iconic RAI studio in Rome [3].
+          </p>
+          
+          <h4>References</h4>
+          <p class="reference">
+            [1] Demby, William, and Giovanna Micconi. “Ghosts of History: An Interview with William Demby.” Amerikastudien / 
+            American Studies, vol. 56, no. 1, 2011, pp. 123–39.
+
+            [2] “The RAI Teche Archives.” <a href="romecityoffilm.com/en/the-rai-teche-archives/">romecityoffilm.com/en/the-rai-teche-archives/</a>
+
+            [3] “Varietà 1961-1963,” Rai Teche, <a href="teche.rai.it/varieta-1961-1963/.">teche.rai.it/varieta-1961-1963/.</a>
+        </article>
+        </section>
+      </div>
+
+      <div class="section">
+        <section class="map-container">
+          <div id="map7" class="map"></div>
+        </section>
+        
+        <section class="featured">
+        <article>
+          <h2>Via Margutta</h2> 
+          <img id="location-image" src="imgs/via_margutta.JPG" alt="Via Margutta">
+          <h3>William Demby and Edmonia Lewis</h3>
+          <p class="quote">
+            I was bent on going to Rome from day one! [...] Rome was for the gritty life of the pure artist as 
+            depicted in Roberto Rossellini’s films. (Micconi 126)
+          </p>
+          
+          <p class="quote">
+            So convincing was the circle around me and my sudden immersion and acceptance as an artist into Europe
+            and its revolutionary post-war culture that Beetlecreek almost seemed to write itself. (Micconi 127) 
+          </p>
+          
+          <p class="context">
+            William Demby was stationed in Italy during World War II. After graduating from Fisk University after the war, he
+            returned to Italy in 1947 and worked as a novelist, actor, journalist, screenwriter, and translator of Italian 
+            film scripts [1]. In 1953, he married Italian poet, novelist, translator, and literary agent Lucia Drudi 
+            [EXTERNAL LINK TO: https://www.enciclopediadelledonne.it/edd.nsf/biografie/lucia-drudi-demby], with whom he would
+            go on to co-author screenplays including Congo vivo and Marcia o crepa in the early 1960s [2]. </p>
+
+          <p class="context">
+            Via Margutta, where Demby first lived in Rome upon his return in 1947, is a lane off the Piazza del Popolo that hosted
+             many artists’ studios and living spaces. Not long after, Demby would move into a shared flat with several artists
+             including Renzo Vespignani and Marcello Muccini on Via San Teodoro overlooking the ruins of the Ancient City where 
+             he would continue writing Beetlecreek. </p>
+          <p class="context">
+            In the 19th century, American artists were drawn to the area near the Spanish Steps, notably African American and Native
+            American sculptor Edmonia Lewis, who had a studio on the Via Margutta in the former studio of the renowned Italian sculptor
+            Canova (1757-1822). Lewis’s work showcased African American and Native American women, often in marble, once she moved to Rome.
+            Specifically, she highlighted the oppression of Black people and celebrated her own Native American heritage. Lewis did her own
+            stonework to ensure it was accepted as her original work, rather than following the standard practice of hiring workmen to carve 
+            the final piece [3] (Link to: Edmonia Lewis | Smithsonian American Art Museum https://americanart.si.edu/artist/edmonia-lewis-2914.). 
+          </p>
+          
+          <h4>References</h4>
+          <p class="reference">
+            [1] “Introduction.” New Perspectives on William Demby, eds. Melanie Masterton Sherazi, James C. Hall and Ugo Rubeo. 
+            special issue of African American Review, vol. 55, nos. 2/3, 2022, pp. 111-119. 
+            <a href="10.1353/afa.2022.0016">10.1353/afa.2022.0016</a>
+
+            [2] Lucia Drudi Demby. 
+            <a href=enciclopediadelledonne.it/edd.nsf/biografie/lucia-drudi-demby>enciclopediadelledonne.it/edd.nsf/biografie/lucia-drudi-demby</a>
+
+            [3] Edmonia Lewis. 
+            <a href="https://americanart.si.edu/artist/edmonia-lewis-2914.">https://americanart.si.edu/artist/edmonia-lewis-2914.</a>
+        </article>
+        </section>
+      </div>
+
+      
+      <div class="section">
+        <section class="map-container">
+          <div id="map8" class="map"></div>
+          <script src="overlay_map.js"></script>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>Cineccita Studio</h2> 
+          <img id="location-image" src="imgs/piazza_del_popolo.jpg" alt="Piazza del Popolo">
+          <h3>John Kitzmiller, Katherine Dunham and Ben Johnson</h3>
+          <p class="context">
+            Cinecittà Studios continues to make movies to this day, with eighteen stages and five permanent sets for settings such as
+            Ancient Rome and a 20th Century City. The studio hosts films by both domestic and international producers, as supported 
+            by tax credits from the Italian government [1]. The studio gave rise to a boom known as Hollywood on the Tiber in the 1950s,
+            a time in which a number of African American performers took up on screen roles, ranging from lead roles to extra work.  </p>
+
+          <p class="context">
+            John Kitzmiller’s successful acting career in Rome began with Vivere in pace (To Live in Peace) filmed at Cinecittà Studios 
+            in 1947 [2]. Although he had a long career in Rome, he is best known in the United States for his role as Quarrel in the James
+            Bond film Dr. No [3]. </p>
+          
+          <p class="context">
+            Kitzmiller’s stay in Rome was unanticipated, as he was an engineer and not an actor when offered the role in Vivere in pace by
+            director Luigi Zampa. At the end of World War II, however, Kitzmiller had no inclination to return home to Michigan, as both
+            his parents died during the war and his sister was moving to Detroit. Kitzmiller told his hometown paper in 1960, “At that time,
+            thousands of discharged GIs were looking for jobs, so I figured I’d let them get settled down first” [4]. Although Kitzmiller’s
+            on-screen performance was received positively in Italy, American critics highlighted the perpetuation of racist stereotypes of 
+            Black men, which continued through his later roles in films such as Tombolo [5]. Kitzmiller won “Best Actor” at the Cannes Film 
+            Festival in 1957 for his role in the Valley of Peace.</p>
+
+          <p class="context">
+            Though Kitzmiller was one of the leading Black actors working in Rome in this period, other luminaries included Katherine Dunham 
+            who worked in the Italian cinema in such films as Mambo and whose dance method was taught in Rome. Edith Peters, who sang with her 
+            sisters, The Peters Sisters, appeared in a number of Italian films in the 1950s and 1960s.  </p>
+
+          <p class="context">
+            In and around Rome, other productions featured Black talent on screen. Ben Johnson starred in Il peccato di Anna, a retelling of
+            Othello set in 1950s Rome, in which William Demby also played a substantive supporting role as a Black expatriate jazz musician. 
+          </p>
+
+                  
+          <h4>References</h4>
+          <p class="reference">
+            [1] “Cinecittà.” cinecitta.com/en/. 
+
+            [2] Heyde, Paul C. “African Americans in Cinema: The First Half Century.” Black Camera, vol. 18, no. 2, 2003, pp. 8–11.
+
+            [3] ibid.
+
+            [4] Giovacchini, Saverio. “John Kitzmiller, Euro-American Difference, and the Cinema of the West.” Black Camera, vol. 6, no. 2, 2015, pp. 17–41. 
+
+            [5] ibid.
+        </article>
+        </section>
+      </div>
+    
+      <div class="section">
+        <section class="map-container">
+          <div id="map9" class="map"></div>
+        </section>
+
+        <section class="featured">
+        <article>
+          <h2>Roman Bricktop’s on the Via Veneto</h2> 
+          <img id="location-image" src="imgs/piazza_del_popolo.jpg" alt="Piazza del Popolo">
+          <h3>Bricktop</h3>
+          <p class="quote">
+            The Rome American raved, ‘Bricktop’s opening last night at the ABC Room of the Hotel Ambassador was in the old tradition—a
+             setting jampacked with celebrities, and Bricktop herself the same warm and wonderful personality that has made her famous
+              throughout the world.’ (Bricktop with James Haskins, Bricktop 253).   </p>
+
+          <p class="context">
+            After her iconic run as a performer and clubowner in interwar Paris, Ada “Bricktop” Smith opened up Roman Bricktop’s in early
+             1951 in the Ambassador Hotel with Charlie Lewis’s band, near Doney’s Restaurant on the Via Veneto. While it received praise
+            and buzz, there was a decline in business as time went on. Bricktop pivoted and reopened her club in a second location in
+             “a room behind a florist’s shop on the Via Veneto.” The building, however, was owned by priests, who “objected to the music
+            in the small hours of the morning. They didn’t make [Bricktop] close the club, but they did stop the music, and what was
+            Bricktop’s without music? [Bricktop’s] stayed at the florist-shop location only a few months” (Bricktop 258). This led
+            to her final location, the one most associated with Roman Bricktop’s, which was in a cellar on the Via Veneto, a location found
+            by her friend Jody Desmond. “I was never crazy about the place,” Bricktop recalled.” “The décor was more that of a restaurant than
+            a nightclub. It was very chic, but it didn’t have that intimacy. A lot of my clients confessed that they didn’t like it either,
+           but eventually we changed it around” (Bricktop 258).  </p>
+          
+          <p class="context">
+            Bricktop’s club was a hot spot during the period of “Hollywood on the Tiber” and was frequented by celebrities including actress
+             Anna Magnani, Bricktop’s close friend, who gathered to hear Bricktop’s nightly performance of “Miss Otis Regrets,” penned for her
+             by her friend Cole Porter. In Rome, Bricktop was known as the “Holy Hustler” for her twinned business savvy and staunch commitment
+             to philanthropy, the latter which grew out of her wartime conversion to Catholicism. Bricktop ran her club in Rome until 1964, when
+             she announced her retirement and return to the States (Bricktop 279). </p>
+        </article>
+        </section>
+      </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+    <script>
+      new fullpage('#fullpage', {
+        navigation: true,
+        navigationPosition: 'right',
+        scrollOverflow: true,
+        });
+    </script>
+    <script src="maps.js"></script>
+    <script src="map2.js"></script>
+    <script src="map3.js"></script>
+    <script src="map4.js"></script>
+    <script src="map5.js"></script>
+    <script src="overlay_map.js"></script>
+
+    <!-- Still from Anna's Sin (1953). Alberto (Paul Muller) and John (Ben Johnson) in the Villa Borghese gallery in front of Venus Victrix. Canova -->
+    
+    <footer>
+      <p>Mapping Black Rome &copy; 2024</p>
+    </footer>
+  </body>
+</html>

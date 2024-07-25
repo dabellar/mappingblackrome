@@ -1,0 +1,188 @@
+/*
+ * Author: Beatriz Avila-Rimer
+ * Styling for the Mapping Black Rome website
+ */
+
+/* Import the Anton font */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.map {
+  height: 750px;
+  width: 100%;
+  z-index: 0;
+}
+
+body, nav ul, .banner, main {
+  margin: 0;
+}
+
+body, nav ul {
+  padding: 0;
+}
+
+nav li a, nav ul {
+  display: inline-block;
+}
+
+nav li a, h1, h2, .map-container {
+  text-align: center;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
+  display: block;
+}
+
+nav {
+  background-color: #A2D2FF;
+  text-align: right;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #BDE0FE;
+  color: black;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Anton', sans-serif;
+  margin: 20px 0;
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Anton', sans-serif;
+  margin-top: 60px;
+  color: #555555;
+  letter-spacing: .8px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Anton', sans-serif;
+  margin: 10px 0;
+  color: #777777;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Anton', sans-serif;
+  margin: 6px 0;
+  color: #777777;
+  letter-spacing: .7px;
+}
+
+.quote {
+  font-style: italic;
+  display: block;
+  font-weight: bold;
+  margin: 20px;
+  font-size: 17px;
+  color: #555555;
+}
+
+.reference {
+  display: block;
+  font-weight: 300;
+  font-size: 13px;
+  margin-bottom: 40px;
+  color: #777777;
+}
+
+p {
+  font-weight: 300;
+  font-size: large;
+  margin-left: 20px;
+  color: #777777;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-height: 300px;
+  width: auto;
+}
+
+footer {
+  padding-left: 25px;
+}
+
+.banner {
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.map-container {
+  background-color: #f2f2f2;
+  width: 100%;
+  margin-right: 7px auto;
+  height: auto;
+  flex: 1;
+}
+
+.section {
+  display: flex;
+  position: relative;
+}
+
+.featured {
+  flex: 1;
+  padding-top: 35px;
+  padding: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 52.5%;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  height: 750px;
+  overflow-y: auto; /* Enable vertical scrolling */
+  box-shadow: -40px 0 30px 0 rgba(255, 255, 255, 0.85);
+}
+
+.article {
+  margin-bottom: 40px;
+}
+
+.article p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+figure {
+  text-align: center;
+  margin: 20px;
+}
+
+figcaption {
+  font-style: italic;
+  color: #555;
+  text-align: center;
+}

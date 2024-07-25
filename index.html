@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+  Author: Bea Avila-rimer
+  CS 132 Spring 2023
+  Home page of my blog page, I have as short about me and a featured stories
+  section. 
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mapping Black Rome</title>
+    <link rel="icon" href="imgs/bee.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet Map</title>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="trips.html">Relevant Work</a></li>
+          <li><a href="bibliography.html">Bibliography</a></li>
+          <li><a href="entries.html">Entries</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="banner">
+        <h1>Mapping Black Rome</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="section">
+        <section class="map-container">
+          <div id="map" class="map"></div>
+          <script src="overlay_map.js"></script>
+        </section>
+        
+
+        <section class="featured">
+        <article>
+          <h2>About</h2>
+          <p>
+            Mapping Black Rome is a digital humanities project that grew out of Melanie Masterton Sherazi’s 2024 winter English course,
+            "African American Expatriate Culture in Postwar Europe," at the California Institute of Technology in Pasadena, California. 
+            The map’s entries emerged from our thinking together in the course and was initiated by research conducted by students including
+            Bea Avila-Rimer, Ankita Nandi, and Favour E. Okodogbe. This project is ongoing. We welcome suggestions, as well as additions to
+            our <a href="#">Bibliography</a> page.</p>
+            <p>Please see our <a href="#">Contact</a> page to connect with the project. </p>
+        </article>
+        </section>
+      </div>    
+    </main>
+    
+
+    <footer>
+      <p>Mapping Black Rome &copy; 2023</p>
+    </footer>
+  </body>
+</html>
