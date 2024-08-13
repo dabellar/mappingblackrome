@@ -40,4 +40,4 @@ function handleScroll(event) {
 }
 
 // Add scroll event listener with debounce to trigger custom full-page scrolling
-window.addEventListener('scroll', debounce(handleScroll, 250)); // Adjust the debounce delay as needed
+// window.addEventListener('scroll', debounce(handleScroll, 250)); // Adjust the debounce delay as needed
