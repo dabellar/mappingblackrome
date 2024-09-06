@@ -3,5 +3,7 @@ Mapping Black Rome is a digital humanities project that grew out of Melanie Mast
 The map’s entries emerged from our thinking together in the course and was initiated by research conducted by students including Bea Avila-Rimer,
 Ankita Nandi, and Favour E. Okodogbe. This project is ongoing. We welcome suggestions, as well as additions to our Bibliography page.
 
+Website design and implementation: Bea Avila-Rimer
+
 Please see our Contact page to connect with the project.
 [Mapping Black Rome](https://mappingblackrome.github.io/mappingblackrome/index.html#)
