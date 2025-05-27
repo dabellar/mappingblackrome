@@ -28,18 +28,3 @@ var overlayMaps = {
 
 // Add layer control to the map
 L.control.layers(baseMaps, overlayMaps, { position: 'topleft' }).addTo(map);
-
-var piazzaDelPopoloMarker = L.marker([41.9109, 12.4763]).addTo(map);
-piazzaDelPopoloMarker.bindPopup("<b>Piazza del Popolo</b><br>William Demby");
-
-var villaMarker = L.marker([41.9085, 12.488]).addTo(map);
-villaMarker.bindPopup("<b>Villa Borghese</b><br>Some artist");
-
-var vaticanMarker = L.marker([41.90268, 12.45414]).addTo(map);
-vaticanMarker.bindPopup("<b>Vatican</b><br>Some artist");
-
-var foroMarker = L.marker([41.9311111, 12.456389]).addTo(map);
-foroMarker.bindPopup("<b>foro</b><br>Some artist");
-
-// L.rectangle(latLngBounds).addTo(map);
-// map.fitBounds(latLngBounds);
