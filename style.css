@@ -116,8 +116,11 @@ h4 {
   display: block;
   font-weight: 300;
   font-size: 13px;
-  margin-bottom: 40px;
   color: #777777;
+}
+
+.last {
+  padding-bottom: 10px;
 }
 
 p {
@@ -158,8 +161,6 @@ footer {
 
 .featured {
   flex: 1;
-  padding-top: 35px;
-  padding: 20px;
   position: absolute;
   z-index: 1;
   top: 0;

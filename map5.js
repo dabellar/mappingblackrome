@@ -8,4 +8,4 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var bricktopCoor = [41.908340, 12.489440];
 var bricktopMarker = L.marker(bricktopCoor).addTo(map9);
-bricktopMarker.bindPopup("<b>Bricktop's Via Venetto</b><br>Bricktop").openPopup();
+bricktopMarker.bindPopup("<b>Bricktop's Via Veneto</b><br>Bricktop").openPopup();

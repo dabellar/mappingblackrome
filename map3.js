@@ -8,7 +8,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var americanAcademyCoor = [41.887989, 12.462850];
 var americanAcademyMarker = L.marker(americanAcademyCoor).addTo(map6);
-americanAcademyMarker.bindPopup("<b>American Academy in Rome</b><br>Many Artist").openPopup();
+americanAcademyMarker.bindPopup("<b>American Academy in Rome</b><br>Barbara Chase-Riboud, John Rhoden, and Ralph Ellison").openPopup();
 
 
 // Map 7: RAI Studios

@@ -61,7 +61,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Marker for Villa Borghese
 var villaMarker = L.marker(villaBorgheseCoor).addTo(map3);
-villaMarker.bindPopup("<b>Villa Borghese</b><br>Some artist");
+villaMarker.bindPopup("<b>Villa Borghese</b><br>Ben Johnson");
 
 // Via delle Botteghe Oscure, 32
 var viaBottegheOscureMarker = L.marker(viaBottegheOscureCoor).addTo(map3);
@@ -69,5 +69,5 @@ viaBottegheOscureMarker.bindPopup("<b>Via delle Botteghe Oscure, 32</b><br>Ben J
 
 // American Academy in Rome
 var americanAcademyMarker = L.marker(americanAcademyCoor).addTo(map3);
-americanAcademyMarker.bindPopup("<b>American Academy in Rome</b><br>Many artists");
+americanAcademyMarker.bindPopup("<b>American Academy in Rome</b><br>Barbara Chase-Riboud, John Rhoden, and Ralph Ellison");
 
